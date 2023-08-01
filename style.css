@@ -1,0 +1,355 @@
+*{
+ padding: 0%;
+ margin: 0%;
+ box-sizing: border-box;
+
+}
+.hero{
+height: 100vh;
+width: 100%;
+background-size: contain;
+background-color: #030303;
+
+}
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+.log{
+  color: white;
+  font-size: 10px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+span{
+  color: #f9004d;
+}
+nav ul li{
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 25px;
+  
+}
+nav ul li a{
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+nav ul li a:hover{
+  color: #f9004d;
+  transition: .4s;
+}
+.content{
+position: absolute;
+top: 36%;
+left: 8%;
+transform: translateY(-20%);
+}
+h1{
+  color: white;
+  
+  font-size: 25px;
+}
+h3{
+  color: white;
+ margin-bottom: 50px;
+}
+h4{
+  color: #fcfc;
+  letter-spacing: 2px;
+  font-size: 20px;
+}
+.newslatters form input:first-child{
+  display: inline-block;
+ width: 100%;
+ padding:  10px 20px 15px 20px ;
+ border: 2px solid  #f9004d ;
+ outline: none;
+ border-radius: 35px;
+ }
+ .newslatters form input:last-child {
+  position: absolute;
+  display: inline-block;
+  outline: none;
+  border: none;
+  background-color: #f9004d;
+  color: white;
+  box-shadow: 0px 0px 5px #000 0px 0px 15px #858585;
+  font-weight: bold;
+  padding: 15px 10%;
+  border-radius: 20px;
+  transform: .4s;
+  cursor: pointer;
+  right: 1px; 
+}
+ .newslatters form a {
+  color: #edcbd3;
+  text-decoration: none;
+  border: 1px solid transparent;
+ }
+body{
+  background-color: black;
+}
+h2{
+  color: white;
+
+}
+.About{
+  width: 100%;
+  padding: 50px 0px;
+  background-color: #000000;
+}
+.About img{
+  height: auto;
+  width: 40%;
+  opacity: .7s;
+ 
+
+}
+.about-text{
+width: 50%;
+font-style: bold;
+}
+.main{
+  width: 130%;
+  max-width: 95%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.about-text h2{
+  color: white;
+  font-size: 30px;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+.about-text p{
+  color: #fcfc;
+  letter-spacing: 1px;
+  line-height: 28px;
+  font-size: 18px;
+  margin-bottom: 45px;
+}
+button{
+  background-color: #f9004d;
+  color: white;
+  text-decoration: none;
+  border: 1px solid transparent;
+  font-weight: bold;
+  padding: 10px 10px;
+  border-radius: 20px;
+  transform: .4s;
+}
+button:hover{
+  background-color: transparent;
+  border: 2px solid #f9004d;
+  cursor: pointer;
+} 
+
+.img_H{
+float: right;
+height: 70%;
+width: 50%;
+bottom: 35%;
+
+
+}
+.img_cen{
+  position: absolute;
+  width: 60%;
+ left: 27%;
+  top: 20%;
+  bottom: 20%;
+  float: right;
+  height: 100%;
+  opacity: .8;
+}
+.Sk h1 {
+  padding: 10px 10%;
+ }
+  .Sk ul li {
+   padding: 10px 15%;
+   color: #edcbd3;
+   font-style: italic; 
+   text-decoration: none;
+   list-style-position: inside;
+   
+ }
+ .Sk ul li a i{
+  color: rgb(10, 240, 240);
+  font-size: 20px;
+  padding: 5px 5%;
+ }
+ .newslatters form a {
+  background-color: #f9004d;
+  color: white;
+  text-decoration: none;
+  border: 1px solid transparent;
+  font-weight: bold;
+  padding: 10px 10%;
+  border-radius: 20px;
+  transform: .4s;
+  text-decoration: none;
+ }
+ .PI h1{
+  padding: 10px 10%;
+  color: #edcbd3;
+  font-size: x-large;
+ }
+ .PI h2 {
+  color: white;
+  padding: 5px 5%;
+  }
+  .PI h3{
+    color:antiquewhite;
+    padding: 10px 10%;
+  }
+  .PI h4{
+    color: white;
+    padding: 5px 5%;
+  }
+  .PI sub{
+    color:antiquewhite;
+    padding: 5px 5%;
+  }
+  .PI p{
+    color:antiquewhite;
+    padding: 10px 10%;
+  }
+  .contact{
+    position: relative;
+    min-height: 100vh;
+    padding:20px 100px;
+    margin-top: -10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: url();
+    background-size: cover;
+  } 
+  .contact  .contact{
+    max-width: 800px;
+    text-align: center;
+    
+  }
+  .contact  .contact h3{
+    font-size: 23px;
+    font-weight: 500;
+    color: white;
+  }
+  .contact  .contact p{
+    font-size: 36px;
+    font-weight: 400;
+    color: rgb(176, 80, 80);
+  }
+  .container{
+    width: 100%;;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -25%;
+  }
+  .container .contactInfo{
+    width: 300%;
+    display: flex;
+    flex-direction: column;
+  }
+  .container .contactInfo .box{
+    position: relative;
+    padding: 10px 0%;
+    display: flex;
+  } 
+  .container .contactInfo .box .icon{
+    min-width: 35px;
+    height: 30px ;
+    background:#00bcd4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20%;
+    font-size: 20px;
+  }
+  .container .contactInfo .box .text {
+    display: flex;
+    margin-left: 10px;
+    font-size: medium;
+    color: blueviolet;
+    flex-direction: column;
+    font-weight: 20;
+  }
+  .container .contactInfo .box .text h2{
+    font-size:larger;
+    color: white;
+    font-weight: 500;
+  
+  }
+  .contactFrom
+  {
+    width: 100%;
+    padding:  20px 20%;
+    background:rgb(14, 174, 174);
+  }
+  .contactFrom h2{
+    font-size: 15px;
+    color: white;
+    font-weight: 500;
+  }
+  .contactFrom .inputBox{
+    position: relative;
+    width: 100px;
+    margin-top: 20%;
+  }
+  .contactFrom .inputBox input,
+  .contactFrom .inputBox text
+  {
+    width: 100%;
+    padding: 7px 8% ;
+    font-size: 8px;
+    margin: -20px;
+    border: none;
+    border-bottom: 2px soild #bd1313;
+    outline: none;
+    resize: none;
+    
+  }
+  .contactFrom .inputBox span{
+    position: absolute;
+    left:-5%;
+    padding: 1 10%;
+    font-size: 8px;
+    margin: 3px ;
+    pointer-events: none;
+    transition: 10;
+    color: #462d2d;
+    opacity: .7;
+  }
+  .contactFrom .inputBox .input:focus ~ span,
+  .contactFrom .inputBox input:valid ~ span,
+  .contactFrom .inputBox textarea:focus ~ span,
+  .contactFrom .inputBox textarea:valid ~ span
+  {
+   color: #2d282a;
+   font-size: 10px;
+   transform: translateY(-20px);
+}
+.contactFrom .inputBox input[type="submit"]{
+  width: 50px;
+  background-color:white;
+  color: black;
+  border: none;
+  cursor: pointer;
+  padding: 4px ;
+  font-size: 13px 12%;
+  text-transform: capitalize;
+  }
+  #msg{
+    color: white;
+    margin-left: -20%;
+    display: block;
+  }
+  

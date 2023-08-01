@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Website</title>
+  <link rel="stylesheet" href="./style.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+</head>
+<body>
+  <div class="img_cen">
+  <img class="img_H" src="./Harish.jpg">
+</div>
+
+  <div class="hero">
+<nav>
+  <h2 class="logo">Portfo<span>lio</span></h2>
+  <ul>
+    <li><a href="#Home">Home</a></li>
+    <li><a href="#About">About Us</a></li>
+    <li><a href="#Skills">Skills</a></li>
+    <li><a href="#Project">Project</a></li>
+    <li><a href="#Contact">Contact Us</a></li>
+  </ul>
+  <a href="#"></a>
+  </nav>
+
+<div class="content">
+  <h4>Hello my name is</h4>
+  <h1>Harish <span>Kulkarni</span></h1>
+  <h3>I would like to become a Developer</h3>
+  <div class="newslatters">
+    <form>
+      <a href="./Harish-Kularni-goodcv.com-280723.145758.pdf" Downlode="Harish_cv">
+       <button type="button">Downlode Cv</button>
+      </a>  
+    </form>
+  </div>
+</div>
+  </div>
+
+
+  <section  class="About" id="About">
+    <div class="main">
+      <img src="./Harishk.jpg" >
+      <div class="about-text">
+        <h2>About Me</h2>
+        <p>I am harish kulkarni.Looking for an intriguing opportunity to work with an organization where i can enhance my skill and look forward to challenge and growth oriented task that helps to prove the best of my ability.Trained in software developement from Jspiders. Possess good communication skills,team memeber skill,ability to work efficiently and to adapt new techniques quickly.</p>
+         <button type="button">Let's Talk</button>
+      </div>
+    </div>
+  </section>
+  
+
+  <section id="Skills">
+   <div class="Sk">
+    <h1>Skills</h1>
+   <ul>
+    <li>CORE JAVA<a href=""><i class="fa-brands fa-java fa-beat-fade"></i></a></li>
+    <li>SQL<a href=""><i class="fa-solid fa-database fa-beat"></i></a></li>
+    <li>HTML<a href=""><i class="fa-brands fa-html5 fa-beat"></i></a></li>
+    <li>CSS <a href=""><i class="fa-brands fa-css3-alt fa-beat"></i></a></li>
+   </ul>
+  </div>
+  </section>
+  <br></br>
+<br>
+
+
+ <section id="Project">
+   <div class="PI">
+    <h1>Project and Intership</h1>
+    <hr>
+    <h2>Project</h2>
+    <h3>Aim :<p> Our main aim to obtain the medical information such as patient heart beat.
+      Body temperature,ecg signal in rural area where people will not having proper medical facilities.
+     </p></h3>
+     <h4>Intership </h4>
+     <sub> ELECTROSTATIC AIR CLEANER</sub>
+     <p>Electrostatic air cleaners (sometimes known as electrostatic precipitators) are highly efficient 
+      filtration devices that use electrostatic attraction to remove fine particulate matter such as dust 
+      and cigarette smoke from the air. Electrostatic air cleaners ionize (or electrically charge) particles 
+      as incoming air is drawn over an electronic cell. The charged particles are then attracted to and 
+      trapped by a series of flat collector plates that are oppositely charged, with the particles literally 
+      “sticking” to the collection plates until they are manually removed.
+      </p>
+    </div>
+ </section>
+  <br>
+  <br>
+ <section class="contact" id="Contact">
+ <div class="contact">
+ <h3>Contact Us</h3>
+ 
+ </div>
+ <div class="container">
+   <div class="contactInfo">
+        <div class="box">
+          <div class="icon"><i class="fa-solid fa-location-dot"></i></div>
+          <div class="text">
+            <h2>Address</h2>
+            <p>Harish kulkarni at post vajjal,<br> Dist yadagiri,Tq hunasgi,Vajjal 585215</p>
+          </div>
+        </div>
+        <div class="box">
+          <div class="icon"><i class="fa-solid fa-phone"></i></div>
+          <div class="text">
+            <h2>phone</h2>
+            <p>8951085559 <br>9591626489</p>
+          </div>
+        </div>
+        <div class="box">
+          <div class="icon"><i class="fa-solid fa-envelope"></i></div>
+          <div class="text">
+            <h2>Email</h2>
+            <p>harishmkulkarni1997@gmail.com</p>
+          </div>
+        </div>
+    </div>
+    <div class="contactFrom">
+         <form  name="submit-to-google-sheet">
+          <h2>Send Message</h2>
+          <div class="inputBox">
+            <input type="text" name="Name" required="required" placeholder="Full Name">
+            <span></span>
+          </div>
+          <div class="inputBox">
+            <input type="text" name="Email" required="required" placeholder="Email">
+            <span></span>
+          </div>
+          <div class="inputBox">
+            <input type="text" name="Message" required="required" placeholder="Type your message....">
+            <span></span>
+          </div>
+          <div class="inputBox">
+            <input type="Submit" name="" value="Send" id="Submit"  >
+          </div>
+         </form>
+         <span id="msg"></span>
+    </div>
+  </div>
+</section>
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbymj3FfVNJG5Y2TyiYATB-giz85TxcXNVAXWyFrInXEg6Kjr62CjZkUD70dnNsY_6Q/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg=document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response =>{
+        msg.innerHTML="Thank you! Message sent successfully"
+        setTimeout(function(){
+          msg.innerHTML=""
+        },5000)
+        form.reset()
+      } )
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+</body>
+</html>
